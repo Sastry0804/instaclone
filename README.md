@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Firebase
+
+We have used firebase services like firestore for real-time database, storage to store images, auth service and finally firebase hosting. After creating a new application in your firebase account create a firebase.js file in [src](https://github.com/Sastry0804/instaclone/tree/main/src) folder and paste the provided configuration in firebase web integration starter code.
+
+Now, to use firebase admin console in local system, install firebase globally using npm.
+
+### npm i -g firebase
+
+now the following are the steps to configure your hosting.
+
+### 1. >firebase login
+
+enter your credentials, after successful login execute initialization.
+
+### 2. >firebase init
+
+now select the hosting option, from the provided services and also configure your build folder.
+
+finally execute deploy
+
+### 3. >firebase deploy
+
+You can find the live version of this repo at [https://insta-clone-react-ca1d1.firebaseapp.com]
+
+HAPPY CODING `:smiley:`
