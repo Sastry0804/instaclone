@@ -75,22 +75,22 @@ We have used firebase services like firestore for real-time database, storage to
 
 Now, to use firebase admin console in local system, install firebase globally using npm.
 
-### npm i -g firebase
+### `npm i -g firebase`
 
 now the following are the steps to configure your hosting.
 
-### 1. >firebase login
+### 1. >`firebase login`
 
 enter your credentials, after successful login execute initialization.
 
-### 2. >firebase init
+### 2. >`firebase init`
 
 now select the hosting option, from the provided services and also configure your build folder.
 
 finally execute deploy
 
-### 3. >firebase deploy
+### 3. >`firebase deploy`
 
 You can find the live version of this repo at [https://insta-clone-react-ca1d1.firebaseapp.com]
 
-HAPPY CODING `:smiley:`
+HAPPY CODING :)
